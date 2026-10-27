@@ -1,0 +1,45 @@
+.main{
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: 50px 70px 30px;
+    /* grid-template-columns: 50px 40px 60px; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+
+     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+     grid-template-columns: repeat(4, 1fr);
+     /* gap: 30px; */
+     /* row-gap: 20px; */
+column-gap: 30px;
+    }
+
+#item1{
+    background-color: rgb(205, 121, 11);
+}
+
+#item2{
+    background-color: rgb(81, 178, 2);
+}
+
+#item3{
+    background-color: rgb(134, 95, 44);
+}
+
+#item4{
+    background-color: rgb(59, 15, 154);
+}
+
+#item5{
+    background-color: rgb(52, 136, 13);
+}
+
+#item6{
+    background-color: rgb(81, 23, 53);
+}
+
+#item7{
+    background-color: rgba(1, 163, 163, 0.619);
+}
+
+#item8{
+    background-color: rgb(228, 52, 158);
+}

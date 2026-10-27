@@ -1,0 +1,19 @@
+/* #. Grid Template Columns and Rows */
+
+#main{
+    border: 2px solid black;
+    display: grid;
+    width: 400px;
+    height: 500px;
+    /* grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px; */
+
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+
+    grid-template-columns: repeat(4,1fr);
+}
+
+.grid{
+    border: 2px solid red;
+}

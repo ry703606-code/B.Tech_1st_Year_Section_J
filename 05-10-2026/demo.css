@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(44, 41, 38);
+}
+
+#heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#div1{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.main{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 15px;
+}

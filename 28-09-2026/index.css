@@ -1,0 +1,58 @@
+/* h1{
+    color: rgb(50, 26, 204);
+    color: aqua;
+    background-color: black;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* h1{
+    color: aqua;
+} */
+/* 
+#a{
+    color: rgb(170, 0, 255)
+}
+
+#b{
+    color: brown;
+} */
+
+
+/* .x{
+    color: blueviolet;
+}
+
+#a{
+    color: aqua;
+}
+ */
+
+
+/* #a{
+    color: antiquewhite;
+}
+
+#b{
+    color: aquamarine;
+}
+
+
+.x{
+    color: palevioletred;
+} */
+
+/* 
+
+#a,#b{
+    color: aqua;
+} */
+
+/* 
+#div1 #a{
+    color: aqua;
+} */

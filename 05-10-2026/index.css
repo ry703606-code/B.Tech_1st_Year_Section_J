@@ -1,0 +1,92 @@
+/* #div1 {
+  /* background-color: aqua; */
+  /* display: inline; */
+  /* left: 1000px; */
+  /* border: 2px solid red; */
+  /* height: 100px; */
+  /* display: inline-block; */
+  /* display: none; */
+  /* visibility: visible; */
+  /* visibility: hidden; */
+  /* opacity: 0.3; */
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* overflow-y: scroll; */
+/* } */
+
+/* #span1 {
+  background-color: aquamarine;
+  position: sticky;
+  left: 100px;
+  top: 100px;
+  z-index: 11;
+} */
+/* 
+#div2 {
+  /* position: relative; */
+  /* position:static; */
+  /* position: absolute; */
+  /* position: fixed; */
+  /* position: sticky; */
+  /* display: inline-block;
+  left: 100px;
+  top: 100px;
+  background-color: aqua;
+  z-index: 10; */
+/* } */
+
+.main{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+/* 
+#div1{
+    border: 2px solid salmon;
+    display: flex;
+    height: 500px; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 10px; */
+    /* row-gap: 10px;    */
+    /* column-gap: 10px; */
+/* } */
+/* 
+#div2{
+    background-color: aqua;
+    align-self: center;
+} */
+
+
+/* #div1{
+    display: flex;
+    border: 2px solid blue;
+    height: 300px;
+    width: 750px;
+    /* flex-wrap: wrap; */
+    /* flex-flow: column; */
+    /* flex-flow: row; */
+
+/* } */
+
+/* .main{
+    width: 50px;
+} */
+
+/* #div2{ */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+/* } */
+
+/* #div1{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

@@ -1,0 +1,52 @@
+.main {
+  border: 2px solid red;
+  display: flex;
+  /* gap: 20px; */
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  /* width: 100px; */
+  /* justify-content: center;
+  align-items: center; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* flex-flow: row wrap; */
+   
+}
+
+.items {
+  /* border: 2px solid blue; */
+}
+
+#item1 {
+  background-color: pink;
+  /* height: 20px; */
+  /* align-self: center; */
+  /* width: 20px; */
+  /* font-size: 10px; */
+   /* flex-shrink: 1; */
+}
+
+#item2 {
+  background-color: rgb(130, 159, 24);
+  /* width: 20px; */
+   /* flex-shrink: 1; */
+}
+
+#item3 {
+  background-color: rgb(59, 19, 57);
+  /* width: 20px; */
+   /* flex-shrink: 1; */
+}
+
+#item4 {
+  /* width: 20px; */
+  background-color: rgb(207, 141, 9);
+   /* flex-shrink: 1; */
+}
+
+#item5 {
+     /* flex-shrink: 1; */
+  /* width: 20px; */
+  background-color: rgb(245, 89, 115);
+}
