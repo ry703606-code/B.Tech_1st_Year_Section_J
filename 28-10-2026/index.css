@@ -1,0 +1,59 @@
+/* :root{
+    --my-color:20px;
+}
+
+#main{
+    background-color: aqua;
+    background-color: var(--my-color, #0909c6);
+    font-size: clamp(20px, 50px, 100px);
+} */
+
+/* @media(min-width:600px){
+    #main{
+        background-color: rgb(87, 165, 42);
+        font-size: 200px;
+    }
+} */
+
+/* @media(max-width:500px){
+    #main{
+        background-color: brown;
+        font-size: 100px;
+    }
+} */
+
+#btn {
+  background-color: red;
+  cursor: pointer;
+  /* 
+  transition-property: all;
+  transition-duration: 5s;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.1, 0.82, 0.165, 1); */
+
+  transition: all, 5s, 2s, easy-in;
+}
+
+#btn:hover {
+  background-color: blue;
+
+  /* transform: translateX(100px); */
+  /* transform: translate(30px, 50px); */
+  /* transform: scale(1.5); */
+  /* transform: rotate(70deg); */
+
+  animation-name: myAnime;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes myAnime {
+  from {
+    transform:translateX(0px);
+  }
+  to{
+    transform: translateX(200px);
+  }
+}
