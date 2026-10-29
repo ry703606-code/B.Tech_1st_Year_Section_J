@@ -1,0 +1,10 @@
+#main p {
+  background-color: rgb(70, 179, 130);
+  color: red;
+  font-size: my-function(20px, 20px);
+}
+#main h1 {
+  background-color: rgb(70, 179, 130);
+  color: red;
+  font-size: my-function(20px, 20px);
+}/*# sourceMappingURL=index.css.map */

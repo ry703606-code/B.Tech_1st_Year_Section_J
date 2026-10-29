@@ -1,0 +1,34 @@
+// Operator -> +,-,*,/
+// Variable -> $variable_name
+// Sass Mixin ->@mixin and @include
+// Function -> @function and @return
+
+@mixin my-prop{
+    $my-color: red;
+        background-color: rgb(70, 179, 130);
+        color: $my-color;
+        // font-size: 20px + 20px;
+    font-size: my-function(20px, 20px);
+    }
+
+// .para{
+//     $my-color:red;
+//     background-color:black;
+//     color:$my-color;
+//     font-size:20px + 20px;
+// }
+
+#main{
+    p{
+      @include my-prop;
+    }
+
+    h1{
+        @include my-prop;
+    }
+}
+
+@function my-function($num1, $num2){
+    @return $num1 + $num2;
+}
+
