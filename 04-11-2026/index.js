@@ -120,3 +120,61 @@
 // console.log(arr1);
 // console.log(arr2);
 
+// Linear Search
+// let numbers = [10, 20, 30, 40, 50];
+// let target = 30;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] === target) {
+//     console.log("Element found at index:", i);
+//     break;
+//   }
+// }
+
+// Binary Search
+// let numbers = [10, 20, 30, 40, 50, 60, 70];
+// let target = 50;
+// let start = 0;
+// let end = numbers.length - 1;
+// while (start <= end) {
+//   let mid = Math.floor((start + end) / 2);
+//   if (numbers[mid] === target) {
+//     console.log("Element found at index:", mid);
+//     break;
+//   } else if (numbers[mid] < target) {
+//     start = mid + 1;
+//   } else {
+//     end = mid - 1;
+//   }
+// }
+
+// #. Multidimensional Arrays
+
+// let students = [
+//   ["Rahul", 85, 90],
+//   ["Amit", 78, 88],
+//   ["Priya", 92, 95],
+// ];
+
+// console.log(students);
+
+// Accessing Elements
+// console.log(students[0][0]);
+// console.log(students[0][1]);
+// console.log(students[1][0]);
+// console.log(students[2][2]);
+
+// for (let i = 0; i < students.length; i++) {
+//   for (let j = 0; j < students[i].length; j++) {
+//     console.log(students[i][j]);
+//   }
+// }
+
+// Array Destructuring
+// let numbers = [10, 20, 30];
+
+// let [a, b, c] = numbers;
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
